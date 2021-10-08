@@ -1,0 +1,1452 @@
+2021-03-16 19:20:23,006:INFO:Initializing load_model()
+2021-03-16 19:20:23,008:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:33:23,442:INFO:Initializing load_model()
+2021-03-16 19:33:23,446:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:34:46,387:INFO:Initializing load_model()
+2021-03-16 19:34:46,388:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:36:08,040:INFO:Initializing load_model()
+2021-03-16 19:36:08,042:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:38:54,831:INFO:Initializing load_model()
+2021-03-16 19:38:54,835:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:39:58,027:INFO:Initializing load_model()
+2021-03-16 19:39:58,029:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:42:29,798:INFO:Initializing load_model()
+2021-03-16 19:42:29,800:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:49:32,692:INFO:Initializing load_model()
+2021-03-16 19:49:32,694:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:49:35,336:INFO:Initializing predict_model()
+2021-03-16 19:49:35,336:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDCB54A2E8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 19:49:35,340:INFO:Checking exceptions
+2021-03-16 19:49:35,340:INFO:Preloading libraries
+2021-03-16 19:50:55,222:INFO:Initializing load_model()
+2021-03-16 19:50:55,224:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:50:58,309:INFO:Initializing predict_model()
+2021-03-16 19:50:58,310:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC43056A0>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 19:50:58,313:INFO:Checking exceptions
+2021-03-16 19:50:58,313:INFO:Preloading libraries
+2021-03-16 19:53:40,619:INFO:Initializing load_model()
+2021-03-16 19:53:40,620:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 19:53:43,607:INFO:Initializing predict_model()
+2021-03-16 19:53:43,608:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDCBDE0710>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 19:53:43,611:INFO:Checking exceptions
+2021-03-16 19:53:43,612:INFO:Preloading libraries
+2021-03-16 20:03:21,880:INFO:Initializing load_model()
+2021-03-16 20:03:21,882:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:03:24,529:INFO:Initializing predict_model()
+2021-03-16 20:03:24,530:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDBBD6F2B0>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:03:24,536:INFO:Checking exceptions
+2021-03-16 20:03:24,536:INFO:Preloading libraries
+2021-03-16 20:04:36,182:INFO:Initializing load_model()
+2021-03-16 20:04:36,184:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:04:39,401:INFO:Initializing predict_model()
+2021-03-16 20:04:39,402:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDBBD99D30>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:04:39,406:INFO:Checking exceptions
+2021-03-16 20:04:39,406:INFO:Preloading libraries
+2021-03-16 20:05:03,949:INFO:Initializing load_model()
+2021-03-16 20:05:03,952:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:05:06,724:INFO:Initializing predict_model()
+2021-03-16 20:05:06,725:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC9020780>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:05:06,728:INFO:Checking exceptions
+2021-03-16 20:05:06,729:INFO:Preloading libraries
+2021-03-16 20:07:04,822:INFO:Initializing load_model()
+2021-03-16 20:07:04,825:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:07:07,600:INFO:Initializing predict_model()
+2021-03-16 20:07:07,601:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDCC9235C0>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:07:07,604:INFO:Checking exceptions
+2021-03-16 20:07:07,605:INFO:Preloading libraries
+2021-03-16 20:07:31,123:INFO:Initializing load_model()
+2021-03-16 20:07:31,124:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:07:33,687:INFO:Initializing predict_model()
+2021-03-16 20:07:33,689:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDBBD9E048>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:07:33,696:INFO:Checking exceptions
+2021-03-16 20:07:33,696:INFO:Preloading libraries
+2021-03-16 20:08:12,571:INFO:Initializing load_model()
+2021-03-16 20:08:12,573:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:08:15,300:INFO:Initializing predict_model()
+2021-03-16 20:08:15,301:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC8D3B160>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:08:15,305:INFO:Checking exceptions
+2021-03-16 20:08:15,306:INFO:Preloading libraries
+2021-03-16 20:09:11,949:INFO:Initializing load_model()
+2021-03-16 20:09:11,949:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:09:14,728:INFO:Initializing predict_model()
+2021-03-16 20:09:14,730:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC9015D68>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:09:14,735:INFO:Checking exceptions
+2021-03-16 20:09:14,737:INFO:Preloading libraries
+2021-03-16 20:10:31,772:INFO:Initializing load_model()
+2021-03-16 20:10:31,773:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:10:34,364:INFO:Initializing predict_model()
+2021-03-16 20:10:34,365:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC9748A90>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:10:34,380:INFO:Checking exceptions
+2021-03-16 20:10:34,381:INFO:Preloading libraries
+2021-03-16 20:13:51,570:INFO:Initializing load_model()
+2021-03-16 20:13:51,572:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:13:54,654:INFO:Initializing predict_model()
+2021-03-16 20:13:54,655:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC94793C8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:13:54,664:INFO:Checking exceptions
+2021-03-16 20:13:54,667:INFO:Preloading libraries
+2021-03-16 20:16:31,290:INFO:Initializing load_model()
+2021-03-16 20:16:31,292:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:16:34,248:INFO:Initializing predict_model()
+2021-03-16 20:16:34,249:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC9734B00>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:16:34,252:INFO:Checking exceptions
+2021-03-16 20:16:34,253:INFO:Preloading libraries
+2021-03-16 20:17:03,482:INFO:Initializing load_model()
+2021-03-16 20:17:03,485:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:17:06,615:INFO:Initializing predict_model()
+2021-03-16 20:17:06,617:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC97E77B8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:17:06,623:INFO:Checking exceptions
+2021-03-16 20:17:06,624:INFO:Preloading libraries
+2021-03-16 20:19:48,973:INFO:Initializing load_model()
+2021-03-16 20:19:48,975:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:19:52,235:INFO:Initializing predict_model()
+2021-03-16 20:19:52,236:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC427DE48>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:19:52,241:INFO:Checking exceptions
+2021-03-16 20:19:52,241:INFO:Preloading libraries
+2021-03-16 20:22:26,705:INFO:Initializing load_model()
+2021-03-16 20:22:26,709:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:22:29,410:INFO:Initializing predict_model()
+2021-03-16 20:22:29,410:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC4E19A20>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:22:29,413:INFO:Checking exceptions
+2021-03-16 20:22:29,414:INFO:Preloading libraries
+2021-03-16 20:25:03,948:INFO:Initializing load_model()
+2021-03-16 20:25:03,949:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:25:06,956:INFO:Initializing predict_model()
+2021-03-16 20:25:06,957:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001EDC4D7D908>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:25:06,963:INFO:Checking exceptions
+2021-03-16 20:25:06,963:INFO:Preloading libraries
+2021-03-16 20:53:45,587:INFO:Initializing load_model()
+2021-03-16 20:53:45,587:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 20:55:44,523:INFO:Initializing predict_model()
+2021-03-16 20:55:44,524:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B107559B38>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 20:55:44,531:INFO:Checking exceptions
+2021-03-16 20:55:44,532:INFO:Preloading libraries
+2021-03-16 21:01:17,733:INFO:Initializing load_model()
+2021-03-16 21:01:17,734:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:01:38,477:INFO:Initializing predict_model()
+2021-03-16 21:01:38,478:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B113B352E8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:01:38,483:INFO:Checking exceptions
+2021-03-16 21:01:38,485:INFO:Preloading libraries
+2021-03-16 21:21:27,470:INFO:Initializing load_model()
+2021-03-16 21:21:27,471:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:21:43,988:INFO:Initializing predict_model()
+2021-03-16 21:21:43,989:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B113B35CC0>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:21:43,994:INFO:Checking exceptions
+2021-03-16 21:21:43,995:INFO:Preloading libraries
+2021-03-16 21:21:58,421:INFO:Initializing predict_model()
+2021-03-16 21:21:58,421:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B113B35CC0>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:21:58,426:INFO:Checking exceptions
+2021-03-16 21:21:58,426:INFO:Preloading libraries
+2021-03-16 21:23:43,351:INFO:Initializing load_model()
+2021-03-16 21:23:43,353:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:24:06,645:INFO:Initializing predict_model()
+2021-03-16 21:24:06,647:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B106576518>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:24:06,653:INFO:Checking exceptions
+2021-03-16 21:24:06,654:INFO:Preloading libraries
+2021-03-16 21:24:15,842:INFO:Initializing predict_model()
+2021-03-16 21:24:15,843:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B106576518>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:24:15,846:INFO:Checking exceptions
+2021-03-16 21:24:15,847:INFO:Preloading libraries
+2021-03-16 21:30:16,206:INFO:Initializing load_model()
+2021-03-16 21:30:16,207:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:30:40,468:INFO:Initializing predict_model()
+2021-03-16 21:30:40,468:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B1060BDAC8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:30:40,471:INFO:Checking exceptions
+2021-03-16 21:30:40,472:INFO:Preloading libraries
+2021-03-16 21:30:52,778:INFO:Initializing predict_model()
+2021-03-16 21:30:52,779:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B1060BDAC8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:30:52,787:INFO:Checking exceptions
+2021-03-16 21:30:52,788:INFO:Preloading libraries
+2021-03-16 21:32:03,650:INFO:Initializing load_model()
+2021-03-16 21:32:03,653:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:34:19,411:INFO:Initializing load_model()
+2021-03-16 21:34:19,413:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:35:24,554:INFO:Initializing load_model()
+2021-03-16 21:35:24,556:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:37:05,352:INFO:Initializing load_model()
+2021-03-16 21:37:05,354:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:41:17,560:INFO:Initializing load_model()
+2021-03-16 21:41:17,561:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:43:30,412:INFO:Initializing load_model()
+2021-03-16 21:43:30,415:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:44:09,110:INFO:Initializing load_model()
+2021-03-16 21:44:09,111:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:45:40,732:INFO:Initializing load_model()
+2021-03-16 21:45:40,734:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:46:10,586:INFO:Initializing predict_model()
+2021-03-16 21:46:10,587:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B114ADC748>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:46:10,590:INFO:Checking exceptions
+2021-03-16 21:46:10,590:INFO:Preloading libraries
+2021-03-16 21:46:24,315:INFO:Initializing predict_model()
+2021-03-16 21:46:24,315:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B114ADC748>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:46:24,317:INFO:Checking exceptions
+2021-03-16 21:46:24,317:INFO:Preloading libraries
+2021-03-16 21:50:05,437:INFO:Initializing load_model()
+2021-03-16 21:50:05,437:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 21:50:07,038:INFO:Initializing predict_model()
+2021-03-16 21:50:07,040:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001B114D4BB70>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-16 21:50:07,044:INFO:Checking exceptions
+2021-03-16 21:50:07,048:INFO:Preloading libraries
+2021-03-16 22:12:08,607:INFO:Initializing load_model()
+2021-03-16 22:12:08,608:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 22:29:13,669:INFO:Initializing load_model()
+2021-03-16 22:29:13,670:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 22:50:24,921:INFO:Initializing load_model()
+2021-03-16 22:50:24,921:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:01:43,406:INFO:Initializing load_model()
+2021-03-16 23:01:43,407:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:02:31,318:INFO:Initializing load_model()
+2021-03-16 23:02:31,318:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:02:49,387:INFO:Initializing load_model()
+2021-03-16 23:02:49,387:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:04:18,386:INFO:Initializing load_model()
+2021-03-16 23:04:18,386:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:08:43,136:INFO:Initializing load_model()
+2021-03-16 23:08:43,137:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:09:32,763:INFO:Initializing load_model()
+2021-03-16 23:09:32,763:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:09:51,110:INFO:Initializing load_model()
+2021-03-16 23:09:51,111:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:10:34,967:INFO:Initializing load_model()
+2021-03-16 23:10:34,967:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:10:50,410:INFO:Initializing load_model()
+2021-03-16 23:10:50,411:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:11:51,320:INFO:Initializing load_model()
+2021-03-16 23:11:51,320:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:15:10,816:INFO:Initializing load_model()
+2021-03-16 23:15:10,817:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:16:01,623:INFO:Initializing load_model()
+2021-03-16 23:16:01,623:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:16:46,557:INFO:Initializing load_model()
+2021-03-16 23:16:46,558:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:30:49,239:INFO:Initializing load_model()
+2021-03-16 23:30:49,240:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:30:58,931:INFO:Initializing load_model()
+2021-03-16 23:30:58,932:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:31:09,555:INFO:Initializing load_model()
+2021-03-16 23:31:09,556:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:35:28,624:INFO:Initializing load_model()
+2021-03-16 23:35:28,624:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:42:26,757:INFO:Initializing load_model()
+2021-03-16 23:42:26,760:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:43:35,808:INFO:Initializing load_model()
+2021-03-16 23:43:35,808:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:44:09,432:INFO:Initializing load_model()
+2021-03-16 23:44:09,432:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:44:25,735:INFO:Initializing load_model()
+2021-03-16 23:44:25,735:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:44:41,570:INFO:Initializing load_model()
+2021-03-16 23:44:41,570:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-16 23:45:23,036:INFO:Initializing load_model()
+2021-03-16 23:45:23,036:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:24:32,377:INFO:Initializing load_model()
+2021-03-17 00:24:32,378:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:26:36,512:INFO:Initializing load_model()
+2021-03-17 00:26:36,513:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:27:52,953:INFO:Initializing load_model()
+2021-03-17 00:27:52,953:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:30:48,846:INFO:Initializing load_model()
+2021-03-17 00:30:48,846:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:33:21,574:INFO:Initializing load_model()
+2021-03-17 00:33:21,575:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:34:24,851:INFO:Initializing load_model()
+2021-03-17 00:34:24,852:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:36:30,571:INFO:Initializing load_model()
+2021-03-17 00:36:30,572:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:43:49,614:INFO:Initializing load_model()
+2021-03-17 00:43:49,615:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:46:20,740:INFO:Initializing load_model()
+2021-03-17 00:46:20,740:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:47:01,739:INFO:Initializing load_model()
+2021-03-17 00:47:01,740:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:48:00,093:INFO:Initializing load_model()
+2021-03-17 00:48:00,094:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:54:10,122:INFO:Initializing load_model()
+2021-03-17 00:54:10,123:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:55:51,818:INFO:Initializing load_model()
+2021-03-17 00:55:51,819:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:57:15,773:INFO:Initializing load_model()
+2021-03-17 00:57:15,774:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:58:39,118:INFO:Initializing load_model()
+2021-03-17 00:58:39,119:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 00:58:57,308:INFO:Initializing load_model()
+2021-03-17 00:58:57,308:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:01:39,598:INFO:Initializing load_model()
+2021-03-17 01:01:39,598:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:03:19,618:INFO:Initializing load_model()
+2021-03-17 01:03:19,618:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:03:48,154:INFO:Initializing load_model()
+2021-03-17 01:03:48,155:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:03:57,776:INFO:Initializing load_model()
+2021-03-17 01:03:57,776:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:04:28,070:INFO:Initializing load_model()
+2021-03-17 01:04:28,071:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:06:50,303:INFO:Initializing load_model()
+2021-03-17 01:06:50,303:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:08:30,623:INFO:Initializing load_model()
+2021-03-17 01:08:30,623:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:08:40,930:INFO:Initializing load_model()
+2021-03-17 01:08:40,931:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:08:56,336:INFO:Initializing load_model()
+2021-03-17 01:08:56,336:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:09:04,061:INFO:Initializing load_model()
+2021-03-17 01:09:04,061:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:09:14,839:INFO:Initializing load_model()
+2021-03-17 01:09:14,839:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:10:00,340:INFO:Initializing load_model()
+2021-03-17 01:10:00,341:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:11:28,183:INFO:Initializing load_model()
+2021-03-17 01:11:28,184:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:16:32,178:INFO:Initializing load_model()
+2021-03-17 01:16:32,178:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:17:30,599:INFO:Initializing load_model()
+2021-03-17 01:17:30,599:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:18:11,508:INFO:Initializing load_model()
+2021-03-17 01:18:11,508:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:19:47,544:INFO:Initializing load_model()
+2021-03-17 01:19:47,545:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:20:44,417:INFO:Initializing load_model()
+2021-03-17 01:20:44,418:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:21:26,681:INFO:Initializing load_model()
+2021-03-17 01:21:26,682:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 01:21:44,057:INFO:Initializing load_model()
+2021-03-17 01:21:44,057:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 13:24:56,358:INFO:Initializing load_model()
+2021-03-17 13:24:56,378:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 14:04:10,072:INFO:Initializing load_model()
+2021-03-17 14:04:10,073:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 14:07:24,680:INFO:Initializing load_model()
+2021-03-17 14:07:24,682:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 14:07:50,118:INFO:Initializing load_model()
+2021-03-17 14:07:50,120:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 14:08:34,078:INFO:Initializing load_model()
+2021-03-17 14:08:34,079:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 14:10:22,481:INFO:Initializing load_model()
+2021-03-17 14:10:22,482:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 14:11:15,377:INFO:Initializing load_model()
+2021-03-17 14:11:15,377:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 15:32:30,873:INFO:Initializing load_model()
+2021-03-17 15:32:30,886:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 15:34:44,574:INFO:Initializing load_model()
+2021-03-17 15:34:44,577:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 15:35:36,495:INFO:Initializing load_model()
+2021-03-17 15:35:36,497:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 15:36:02,736:INFO:Initializing load_model()
+2021-03-17 15:36:02,738:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 15:38:14,717:INFO:Initializing load_model()
+2021-03-17 15:38:14,718:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 16:02:11,539:INFO:Initializing load_model()
+2021-03-17 16:02:11,541:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 16:03:04,099:INFO:Initializing load_model()
+2021-03-17 16:03:04,101:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 16:07:25,007:INFO:Initializing load_model()
+2021-03-17 16:07:25,015:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 16:22:18,076:INFO:Initializing load_model()
+2021-03-17 16:22:18,079:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 19:41:37,385:INFO:Initializing load_model()
+2021-03-17 19:41:37,391:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:23:10,487:INFO:Initializing load_model()
+2021-03-17 23:23:10,488:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:23:41,628:INFO:Initializing load_model()
+2021-03-17 23:23:41,629:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:39:59,216:INFO:Initializing load_model()
+2021-03-17 23:39:59,217:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:46:36,993:INFO:Initializing load_model()
+2021-03-17 23:46:36,995:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:47:03,122:INFO:Initializing load_model()
+2021-03-17 23:47:03,123:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:48:11,225:INFO:Initializing load_model()
+2021-03-17 23:48:11,226:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:51:34,602:INFO:Initializing load_model()
+2021-03-17 23:51:34,603:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:52:45,286:INFO:Initializing load_model()
+2021-03-17 23:52:45,286:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:54:13,610:INFO:Initializing load_model()
+2021-03-17 23:54:13,612:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:55:11,206:INFO:Initializing load_model()
+2021-03-17 23:55:11,207:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:55:24,052:INFO:Initializing load_model()
+2021-03-17 23:55:24,053:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:55:58,540:INFO:Initializing load_model()
+2021-03-17 23:55:58,541:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:56:18,469:INFO:Initializing load_model()
+2021-03-17 23:56:18,469:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:56:36,417:INFO:Initializing load_model()
+2021-03-17 23:56:36,417:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:57:50,375:INFO:Initializing load_model()
+2021-03-17 23:57:50,375:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-17 23:58:30,418:INFO:Initializing load_model()
+2021-03-17 23:58:30,418:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:01:32,873:INFO:Initializing load_model()
+2021-03-18 00:01:32,876:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:02:24,023:INFO:Initializing load_model()
+2021-03-18 00:02:24,023:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:03:41,116:INFO:Initializing load_model()
+2021-03-18 00:03:41,116:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:04:07,401:INFO:Initializing load_model()
+2021-03-18 00:04:07,402:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:10:18,822:INFO:Initializing load_model()
+2021-03-18 00:10:18,823:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:16:59,533:INFO:Initializing load_model()
+2021-03-18 00:16:59,534:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:17:44,009:INFO:Initializing load_model()
+2021-03-18 00:17:44,010:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:18:43,893:INFO:Initializing load_model()
+2021-03-18 00:18:43,895:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:19:26,406:INFO:Initializing load_model()
+2021-03-18 00:19:26,407:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:20:11,556:INFO:Initializing load_model()
+2021-03-18 00:20:11,557:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:21:31,051:INFO:Initializing load_model()
+2021-03-18 00:21:31,052:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:21:33,827:INFO:Initializing load_model()
+2021-03-18 00:21:33,829:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:27:39,742:INFO:Initializing load_model()
+2021-03-18 00:27:39,745:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:27:42,060:INFO:Initializing load_model()
+2021-03-18 00:27:42,060:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:28:36,872:INFO:Initializing load_model()
+2021-03-18 00:28:36,876:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:28:39,211:INFO:Initializing load_model()
+2021-03-18 00:28:39,212:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:30:56,731:INFO:Initializing load_model()
+2021-03-18 00:30:56,733:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:34:15,551:INFO:Initializing load_model()
+2021-03-18 00:34:15,552:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:34:17,271:INFO:Initializing load_model()
+2021-03-18 00:34:17,272:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:34:23,734:INFO:Initializing load_model()
+2021-03-18 00:34:23,736:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:34:30,336:INFO:Initializing load_model()
+2021-03-18 00:34:30,338:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:36:59,323:INFO:Initializing load_model()
+2021-03-18 00:36:59,324:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:39:08,891:INFO:Initializing load_model()
+2021-03-18 00:39:08,894:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:42:39,496:INFO:Initializing load_model()
+2021-03-18 00:42:39,497:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:43:14,665:INFO:Initializing load_model()
+2021-03-18 00:43:14,669:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:45:26,705:INFO:Initializing load_model()
+2021-03-18 00:45:26,707:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:46:06,295:INFO:Initializing load_model()
+2021-03-18 00:46:06,297:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:47:56,107:INFO:Initializing load_model()
+2021-03-18 00:47:56,108:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:48:41,714:INFO:Initializing load_model()
+2021-03-18 00:48:41,716:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:49:22,881:INFO:Initializing load_model()
+2021-03-18 00:49:22,882:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:50:49,621:INFO:Initializing load_model()
+2021-03-18 00:50:49,645:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:56:03,175:INFO:Initializing load_model()
+2021-03-18 00:56:03,178:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 00:59:16,656:INFO:Initializing load_model()
+2021-03-18 00:59:16,657:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 01:01:21,088:INFO:Initializing load_model()
+2021-03-18 01:01:21,090:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 01:04:36,139:INFO:Initializing load_model()
+2021-03-18 01:04:36,141:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 01:05:25,303:INFO:Initializing load_model()
+2021-03-18 01:05:25,314:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 01:09:40,885:INFO:Initializing load_model()
+2021-03-18 01:09:40,888:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 01:18:01,936:INFO:Initializing predict_model()
+2021-03-18 01:18:01,937:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286E65F9F28>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-18 01:18:01,942:INFO:Checking exceptions
+2021-03-18 01:18:01,943:INFO:Preloading libraries
+2021-03-18 01:18:44,940:INFO:Initializing load_model()
+2021-03-18 01:18:44,942:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-18 01:18:47,768:INFO:Initializing predict_model()
+2021-03-18 01:18:47,769:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286F2D14BA8>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-18 01:18:47,774:INFO:Checking exceptions
+2021-03-18 01:18:47,775:INFO:Preloading libraries
+2021-03-19 00:18:35,809:INFO:Initializing load_model()
+2021-03-19 00:18:35,810:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:23:12,323:INFO:Initializing load_model()
+2021-03-19 00:23:12,323:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:24:35,482:INFO:Initializing load_model()
+2021-03-19 00:24:35,483:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:26:41,209:INFO:Initializing load_model()
+2021-03-19 00:26:41,210:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:30:51,925:INFO:Initializing load_model()
+2021-03-19 00:30:51,926:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:32:14,919:INFO:Initializing load_model()
+2021-03-19 00:32:14,920:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:34:32,141:INFO:Initializing load_model()
+2021-03-19 00:34:32,142:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:35:00,995:INFO:Initializing load_model()
+2021-03-19 00:35:00,996:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:35:41,187:INFO:Initializing load_model()
+2021-03-19 00:35:41,188:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:35:48,334:INFO:Initializing load_model()
+2021-03-19 00:35:48,335:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:35:58,227:INFO:Initializing load_model()
+2021-03-19 00:35:58,227:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 00:37:22,186:INFO:Initializing load_model()
+2021-03-19 00:37:22,187:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 12:58:21,038:INFO:Initializing load_model()
+2021-03-19 12:58:21,042:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:08:06,964:INFO:Initializing load_model()
+2021-03-19 13:08:06,965:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:11:31,605:INFO:Initializing load_model()
+2021-03-19 13:11:31,606:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:11:54,021:INFO:Initializing load_model()
+2021-03-19 13:11:54,022:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:12:46,311:INFO:Initializing load_model()
+2021-03-19 13:12:46,312:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:15:17,133:INFO:Initializing load_model()
+2021-03-19 13:15:17,134:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:15:53,289:INFO:Initializing load_model()
+2021-03-19 13:15:53,290:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:16:10,683:INFO:Initializing load_model()
+2021-03-19 13:16:10,684:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:18:05,796:INFO:Initializing load_model()
+2021-03-19 13:18:05,796:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:18:17,991:INFO:Initializing load_model()
+2021-03-19 13:18:18,010:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:18:58,031:INFO:Initializing load_model()
+2021-03-19 13:18:58,035:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:21:49,575:INFO:Initializing load_model()
+2021-03-19 13:21:49,575:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:22:10,292:INFO:Initializing load_model()
+2021-03-19 13:22:10,292:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:22:24,466:INFO:Initializing load_model()
+2021-03-19 13:22:24,467:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:22:35,108:INFO:Initializing load_model()
+2021-03-19 13:22:35,109:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 13:22:52,462:INFO:Initializing load_model()
+2021-03-19 13:22:52,462:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:20:11,099:INFO:Initializing load_model()
+2021-03-19 14:20:11,104:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:20:55,998:INFO:Initializing load_model()
+2021-03-19 14:20:55,998:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:25:31,319:INFO:Initializing load_model()
+2021-03-19 14:25:31,320:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:25:41,471:INFO:Initializing load_model()
+2021-03-19 14:25:41,476:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:25:45,100:INFO:Initializing load_model()
+2021-03-19 14:25:45,101:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:26:19,920:INFO:Initializing load_model()
+2021-03-19 14:26:19,921:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:26:49,734:INFO:Initializing load_model()
+2021-03-19 14:26:49,735:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:31:21,026:INFO:Initializing load_model()
+2021-03-19 14:31:21,026:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:32:48,835:INFO:Initializing load_model()
+2021-03-19 14:32:48,836:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:33:55,771:INFO:Initializing load_model()
+2021-03-19 14:33:55,771:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:34:45,643:INFO:Initializing load_model()
+2021-03-19 14:34:45,644:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 14:35:21,647:INFO:Initializing load_model()
+2021-03-19 14:35:21,647:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 17:51:10,418:INFO:Initializing predict_model()
+2021-03-19 17:51:10,419:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286E6A2F748>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-19 17:51:10,422:INFO:Checking exceptions
+2021-03-19 17:51:10,422:INFO:Preloading libraries
+2021-03-19 18:00:18,636:INFO:Initializing load_model()
+2021-03-19 18:00:18,636:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 18:00:20,893:INFO:Initializing predict_model()
+2021-03-19 18:00:20,893:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286EF478320>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-19 18:00:20,895:INFO:Checking exceptions
+2021-03-19 18:00:20,896:INFO:Preloading libraries
+2021-03-19 18:01:21,609:INFO:Initializing load_model()
+2021-03-19 18:01:21,610:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-19 18:01:23,820:INFO:Initializing predict_model()
+2021-03-19 18:01:23,820:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286F2B99898>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-19 18:01:23,822:INFO:Checking exceptions
+2021-03-19 18:01:23,822:INFO:Preloading libraries
+2021-03-19 18:06:26,828:INFO:Initializing predict_model()
+2021-03-19 18:06:26,829:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286F2B99898>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-19 18:06:26,833:INFO:Checking exceptions
+2021-03-19 18:06:26,833:INFO:Preloading libraries
+2021-03-19 18:08:43,273:INFO:Initializing predict_model()
+2021-03-19 18:08:43,274:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286F2B99898>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-19 18:08:43,277:INFO:Checking exceptions
+2021-03-19 18:08:43,277:INFO:Preloading libraries
+2021-03-19 18:15:58,071:INFO:Initializing predict_model()
+2021-03-19 18:15:58,073:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x00000286F2B99898>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-19 18:15:58,083:INFO:Checking exceptions
+2021-03-19 18:15:58,090:INFO:Preloading libraries
+2021-03-19 19:10:02,306:INFO:Initializing load_model()
+2021-03-19 19:10:02,319:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-26 18:45:14,418:INFO:Initializing load_model()
+2021-03-26 18:45:14,420:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-26 18:47:52,283:INFO:Initializing load_model()
+2021-03-26 18:47:52,285:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-26 20:29:07,839:INFO:Initializing load_model()
+2021-03-26 20:29:07,842:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-26 20:29:09,488:INFO:Initializing predict_model()
+2021-03-26 20:29:09,488:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x0000021E4BD5D748>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-26 20:29:09,491:INFO:Checking exceptions
+2021-03-26 20:29:09,491:INFO:Preloading libraries
+2021-03-26 20:30:14,388:INFO:Initializing load_model()
+2021-03-26 20:30:14,388:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-26 20:30:15,575:INFO:Initializing predict_model()
+2021-03-26 20:30:15,576:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x0000021E47047DA0>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-26 20:30:15,579:INFO:Checking exceptions
+2021-03-26 20:30:15,580:INFO:Preloading libraries
+2021-03-26 20:31:00,617:INFO:Initializing load_model()
+2021-03-26 20:31:00,618:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-26 20:31:01,459:INFO:Initializing predict_model()
+2021-03-26 20:31:01,459:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x0000021E539A7978>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-26 20:31:01,463:INFO:Checking exceptions
+2021-03-26 20:31:01,464:INFO:Preloading libraries
+2021-03-26 20:46:25,011:INFO:Initializing predict_model()
+2021-03-26 20:46:25,018:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x0000021E539A7978>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-26 20:46:25,030:INFO:Checking exceptions
+2021-03-26 20:46:25,032:INFO:Preloading libraries
+2021-03-26 21:47:30,995:INFO:Initializing load_model()
+2021-03-26 21:47:30,996:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-30 18:11:39,931:INFO:Initializing load_model()
+2021-03-30 18:11:39,931:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-03-30 22:22:42,657:INFO:Initializing predict_model()
+2021-03-30 22:22:42,663:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001FBA4684128>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-03-30 22:22:42,670:INFO:Checking exceptions
+2021-03-30 22:22:42,671:INFO:Preloading libraries
+2021-04-06 17:56:20,313:INFO:Initializing load_model()
+2021-04-06 17:56:20,314:INFO:load_model(verbose=True, authentication=None, platform=None, model_name=dt_saved_02232021)
+2021-04-06 17:57:34,065:INFO:Initializing predict_model()
+2021-04-06 17:57:34,066:INFO:predict_model(display=None, ml_usecase=MLUsecase.CLASSIFICATION, verbose=True, round=4, encoded_labels=False, probability_threshold=0.184, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='nps')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='nps', threshold=0.6)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=<catboost.core.CatBoostClassifier object at 0x000001FACA258160>,
+                                        cv=StratifiedKFold(n_splits=10, random_state=8110, shuffle=False))]]))
+2021-04-06 17:57:34,069:INFO:Checking exceptions
+2021-04-06 17:57:34,070:INFO:Preloading libraries
