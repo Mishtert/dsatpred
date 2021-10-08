@@ -3,7 +3,7 @@ import layout as lt
 import predict
 import base64
 
-LOGO_IMAGE = "main_logo.png"
+LOGO_IMAGE = "main_logo.PNG"
 sidebar_image = 'side_logo.png'
 st.markdown(
     """
